@@ -1,0 +1,25 @@
+# install with: conda env create -f environment.yml
+name: hrv-bp
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+  - jupyterlab
+  - pandas
+  - numpy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - shap
+  - pytorch
+  - plotly
+  - pip>=24.2
+  - pip:
+      - transformers
+      - datasets
+      - ydata-profiling
