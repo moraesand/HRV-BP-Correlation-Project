@@ -10,6 +10,7 @@ dependencies:
   - jupyterlab
   - pandas
   - numpy
+  - scipy
   - matplotlib
   - seaborn
   - scikit-learn
@@ -18,8 +19,11 @@ dependencies:
   - shap
   - pytorch
   - plotly
+  - pyserial
+  - neurokit2
   - pip>=24.2
   - pip:
       - transformers
       - datasets
       - ydata-profiling
+      - hrv-analysis
